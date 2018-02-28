@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Rotating Cube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Rotating Cube</h1>
+        <br>
+        <!-- controls -->
+        <input type="radio" name="front_side" id="front" checked>
+        <label for="front">FRONT SIDE</label>
+        <input type="radio" name="front_side" id="left">
+        <label for="left">LEFT SIDE</label>
+        <input type="radio" name="front_side" id="right">
+        <label for="right">RIGHT SIDE</label>
+        <input type="radio" name="front_side" id="top">
+        <label for="top">TOP SIDE</label>
+        <input type="radio" name="front_side" id="bottom">
+        <label for="bottom">BOTTOM SIDE</label>
+        <input type="radio" name="front_side" id="back">
+        <label for="back">BACK SIDE</label>
+        <br>
+        <br>
+        <!-- backfront_side-visibility -->
+        <input type="radio" name="back_side" id="hidden">
+        <label for="hidden">Backface Hidden</label>
+        <input type="radio" name="back_side" id="visible" checked>
+        <label for="visible">Backface Visible</label>
+
+        <div class="divider"></div>
+
+        <div class="view_3d">
+            <div class="cube_3d">
+
+                <div class="panel front">
+                    <p>FRONT SIDE</p>
+                </div>
+                <div class="panel top">
+                    <p>TOP SIDE</p>
+                </div>
+                <div class="panel bottom">
+                    <p>BOTTOM SIDE</p>
+                </div>
+                <div class="panel left">
+                    <p>LEFT SIDE</p>
+                </div>
+                <div class="panel right">
+                    <p>RIGHT SIDE</p>
+                </div>
+                <div class="panel back">
+                    <p>BACK SIDE</p>
+                </div>
+
+            </div>
+            <!-- end cube-3d -->
+        </div>
+        <!-- end view-3d -->
+    </div>
+    <!-- end container -->
+</body>
+
+</html>
