@@ -7,5 +7,4 @@ CSS 3d Transformations Magic
 ## No Prerequisites
 * `git clone <repository_url>`  this repository
 * change into the new directory and run index.html file as you see fit
-
-Browser, server where ever you want its just html + css
+* or see it on codepen
